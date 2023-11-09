@@ -8,10 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Category extends Model
 {
     use HasFactory;
-    protected $fillable = ['name_category', 'kode_category', 'owner'];
+    protected $fillable = ['kode_category', 'name_category'];
 
     public function post()
     {
-        return $this->hasMany(Post::class);
+        return $this->hasMany(Post::class, 'kode_category', 'category');
     }
 }
