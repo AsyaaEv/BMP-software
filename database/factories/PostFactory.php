@@ -18,14 +18,12 @@ class PostFactory extends Factory
      */
     public function definition(): array
     {
-        $user = User::pluck('name')->toArray();
-        $category = Category::pluck('name_category')->toArray();
+        $user = User::pluck('email')->toArray();
         return [
-            'judul' => fake()->words(6),
-            'highlight' => fake()->words(13),
-            'isi' =>  fake()->paragraphs(4),
-            'uploader' => fake()->randomElement($user),
-            'category' => fake()->randomElement($category),
+            "judul" => fake()->words(6),
+            "highlight" => fake()->words(13),
+            "isi" =>  fake()->paragraphs(4),
+            "uploader" => fake()->randomElement($user),
         ];
     }
 }

@@ -18,8 +18,7 @@ return new class extends Migration
             $table->string('isi');
             $table->string('uploader');
             $table->foreign('uploader')->references('email')->on('users')->onDelete('cascade');
-            $table->string('category');
-            $table->foreign('category')->references('kode_category')->on('categories')->onDelete('cascade');
+            $table->foreignId('category_id');
             $table->timestamps();
         });
     }

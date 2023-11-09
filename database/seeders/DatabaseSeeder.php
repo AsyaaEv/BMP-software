@@ -5,6 +5,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 use App\Models\Post;
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -22,9 +23,11 @@ class DatabaseSeeder extends Seeder
         // ]);
         $this->call([
             CategorySeeder::class,
-            UserSeeder::class
+            UserSeeder::class,
+            // PostSeeder::class
         ]);
 
-        Post::factory(30)->create();
+        // User::factory(4)->create();
+        Post::factory(3)->create();
     }
 }

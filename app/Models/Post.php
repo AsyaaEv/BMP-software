@@ -9,17 +9,17 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['judul', 'highlight', 'isi', 'uploader', 'category'];
+    protected $fillable = ['judul', 'highlight', 'isi', 'uploader', 'category',];
 
 
 
 
     public function user()
     {
-        return $this->belongsTo(User::class, 'email', 'uploader');
+        return $this->belongsTo(User::class, 'uploader', 'email');
     }
     public function category()
     {
-        return $this->belongsTo(Category::class, 'kode_category', 'category');
+        return $this->belongsTo(Category::class);
     }
 }
