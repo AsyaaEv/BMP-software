@@ -7,9 +7,9 @@ Repositori Github source code Website Web Profil Perusahaan BMP. Menggunakan Bah
 
 ## Anggota pembuat
 
-- [Muhammad Rifal Prasetyo](https://www.github.com/octokatherine)
-- [Diandra RullyAditya](https://www.github.com/octokatherine)
-- [Anggun Rasya Evaldo](https://www.github.com/octokatherine)
+- [Muhammad Rifal Prasetyo](https://github.com/Rifal-Prasetyo/)
+- [Diandra RullyAditya](https://www.github.com/AsyaaEv)
+- [Anggun Rasya Evaldo](https://www.github.com/diandra6695)
 
 
 ## DOKUMENTASI
