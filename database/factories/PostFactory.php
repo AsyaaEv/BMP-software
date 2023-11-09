@@ -21,9 +21,9 @@ class PostFactory extends Factory
         $user = User::pluck('name')->toArray();
         $category = Category::pluck('name_category')->toArray();
         return [
-            'judul' => fake()->words(6),
-            'highlight' => fake()->words(13),
-            'isi' =>  fake()->paragraphs(4),
+            'judul' => fake()->word(),
+            'highlight' => fake()->word(),
+            'isi' =>  fake()->word(),
             'uploader' => fake()->randomElement($user),
             'category' => fake()->randomElement($category),
         ];
