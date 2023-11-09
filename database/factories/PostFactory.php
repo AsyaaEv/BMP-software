@@ -23,7 +23,7 @@ class PostFactory extends Factory
         return [
             'judul' => fake()->sentence(),
             'highlight' => fake()->sentence(),
-            'isi' =>  fake()->sentence(21),
+            'isi' =>  fake()->paragraph(4),
             'uploader' => fake()->randomElement($user),
             'category' => fake()->randomElement($category),
         ];

@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('judul');
             $table->string('highlight');
-            $table->string('isi');
+            $table->text('isi');
             $table->string('uploader');
             $table->foreign('uploader')->references('username')->on('users')->onDelete('cascade');
             $table->string('category');
