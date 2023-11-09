@@ -17,17 +17,17 @@ class UserSeeder extends Seeder
         User::create([
             'name' => 'Muhammad Rifal Prasetyo',
             'email' => 'hrdsdms765@gmail.com',
-            'password' => hash('sha2', 'rifalbogeng123')
+            'password' => bcrypt('rifalbogeng123')
         ]);
         User::create([
             'name' => 'Anggun Rasya Evaldo',
             'email' => 'asyaaeval@gmail.com',
-            'password' => hash('sha2', 'asyabogeng123')
+            'password' => bcrypt('asyabogeng123')
         ]);
         User::create([
             'name' => 'Diandra Rullyaditya',
             'email' => 'hexcon117@gmail.com',
-            'password' => hash('sha2', 'rullybogeng123')
+            'password' => bcrypt('rullybogeng123')
         ]);
     }
 }

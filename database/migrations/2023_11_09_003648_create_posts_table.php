@@ -17,9 +17,9 @@ return new class extends Migration
             $table->string('highlight');
             $table->string('isi');
             $table->string('uploader');
+            $table->foreign('uploader')->references('email')->on('users')->onDelete('cascade');
             $table->string('category');
-            $table->foreign('uploader')->references('name')->on('users')->onDelete('set null');
-            $table->foreign('category')->references('name_category')->on('categories')->onDelete('set null');
+            $table->foreign('category')->references('kode_category')->on('categories')->onDelete('cascade');
             $table->timestamps();
         });
     }

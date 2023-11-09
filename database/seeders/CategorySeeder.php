@@ -14,10 +14,12 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         Category::create([
-            'name_category' => 'Web'
+            'name_category' => 'Web',
+            'kode_category' => 'C1'
         ]);
         Category::create([
-            'name_category' => 'Desain'
+            'name_category' => 'Desain',
+            'kode_category' => 'C2'
         ]);
     }
 }
