@@ -19,6 +19,7 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'username',
         'email',
         'password',
     ];
@@ -45,6 +46,6 @@ class User extends Authenticatable
 
     public function post()
     {
-        return $this->hasMany(Post::class, 'uploader', 'email');
+        return $this->hasMany(Post::class, 'username', 'uploader');
     }
 }
