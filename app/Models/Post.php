@@ -16,10 +16,10 @@ class Post extends Model
 
     public function user()
     {
-        return $this->belongsTo(User::class, 'email', 'uploader');
+        return $this->belongsTo(User::class, 'uploader', 'username');
     }
     public function category()
     {
-        return $this->belongsTo(Category::class, 'kode_category', 'category');
+        return $this->belongsTo(Category::class, 'category', 'kode_category');
     }
 }
