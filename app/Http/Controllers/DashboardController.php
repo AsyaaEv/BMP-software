@@ -36,6 +36,6 @@ class DashboardController extends Controller
     {
         $user = User::paginate(10);
 
-        return view('dashboard.user', compact('user'));
+        return view('dashboard.users', compact('user'));
     }
 }

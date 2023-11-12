@@ -19,7 +19,8 @@ class ProductSeeder extends Seeder
         // 
         Product::create([
             'title' => 'Jurnalistik Redirect Web',
-            'highlight' => 'lorem ipsum dolor sitamet',
+            'excerpt' => 'lorem ipsum dolor sitamet',
+            'slug' => 'lorem-ipsum-dolor-sit',
             'price' => 230000,
             'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, laborum ad temporibus adipisci earum veritatis quas vel ab minima porro voluptate quae illum officia doloremque numquam reprehenderit molestiae corporis! Porro, quas facilis.',
             'uploader' => fake()->randomElement($username)

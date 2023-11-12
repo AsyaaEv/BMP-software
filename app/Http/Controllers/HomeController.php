@@ -15,8 +15,8 @@ class HomeController extends Controller
             'description' => '!Bogeng Company Profil adalah perusahaan yang bergerak pada bidang teknologi dengan melayani jasa Desain dan Pembuatan website',
             'active' => 'home'
         ];
-        $produts = Product::all();
-        $blogs = Post::all();
+        $produts = Product::all()->lazyById();
+        $blogs = Post::all()->lazyById();
         return view('welcome', compact('page', 'products', 'blogs'));
     }
 }
