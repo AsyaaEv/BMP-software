@@ -1,8 +1,8 @@
 <section>
     <div class="w-full h-screen flex flex-col gap-4">
         <div class="w-full h-auto flex justify-center items-center mt-[5rem]">
-            <div class="w-[10rem] h-[2.5rem] bg-bg shadow shadow-dasar rounded-[27px] flex justify-center items-center">
-                <div class="font-bold bg-bg">Halo Semua...!👋</div>
+            <div class="w-[15rem] h-[2.5rem] bg-bg shadow shadow-dasar rounded-[27px] flex justify-center items-center px-4" id="content">
+                <div class="font-bold bg-bg" id="typing">Halo Semua...!👋</div>
             </div>
         </div>
         <div class="w-full h-auto flex justify-center items-center flex-col">
