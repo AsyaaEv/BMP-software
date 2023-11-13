@@ -1,6 +1,6 @@
 <x-header />
-<div class="bg absolute max-w-fit -translate-y-40 ">
-    <svg width="1440" height="816" viewBox="0 0 1440 816" fill="none" xmlns="http://www.w3.org/2000/svg">
+<div class="bg -z-50 absolute max-w-fit -translate-y-40 ">
+    <svg style="max-width: 100%" height="816" viewBox="0 0 1440 816" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect y="-207" width="1440" height="1023" fill="url(#paint0_linear_21_3)" />
         <defs>
             <linearGradient id="paint0_linear_21_3" x1="720" y1="-2397.1" x2="720" y2="685.594"
@@ -16,5 +16,6 @@
     <x-navbar />
     <x-hero />
     <x-about />
+    <x-pricing />
 </div>
 <x-footer />

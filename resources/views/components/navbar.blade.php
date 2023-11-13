@@ -1,10 +1,10 @@
-<nav class="w-full h-[6rem] border-2 flex justify-between px-[2rem]">
+<nav class="w-full h-[6rem] flex justify-between px-[2rem]">
     <div class=" flex justify-between w-full items-center">
 
         <div class="">
             <div class="font-bold text-text">Bogeng</div>
         </div>
-        <div class="midele lg:inline hidden">
+        <div class="midele mt-3 text-sm lg:inline hidden">
             <ul class="p-0 flex gap-3">
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
                     <a href="#" class="decoration-transparent text-text">Home</a>
