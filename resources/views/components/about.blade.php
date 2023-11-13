@@ -1,5 +1,5 @@
 <section>
-    <div class="w-full h-screen mt-[8rem]">
+    <div class="w-full h-auto mt-[8rem]">
         <div class="w-full h-auto flex justify-center items-center">
             <div class="w-[80%] h-[468px] bg-[#EFF2FE] rounded-[10px] shadow-lg flex border-t-2">
                 <div class="w-[50%] h-auto flex justify-center items-center flex-col">
