@@ -42,7 +42,7 @@
             </div>
         </div>
     </div>
-    <div class="absolute w-auto h-auto bg-dasar mt-[6rem] right-0 mr-[3rem] rounded-[10px] flex px-4 shadow-xl md:hidden"
+    <div class="absolute w-auto h-auto bg-dasar mt-[6rem] right-0 mr-[3rem] rounded-[10px] flex px-4 shadow-xl invisible"
         id="navbar">
         <ul class="p-0">
             <li
