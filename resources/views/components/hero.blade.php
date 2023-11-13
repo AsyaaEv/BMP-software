@@ -1,5 +1,5 @@
 <section>
-    <div class="w-full h-screen">
+    <div class="w-full h-auto">
         <div class="w-full h-auto flex justify-center items-center mt-[5rem]">
             <div class="w-[10rem] h-[2.5rem] bg-white shadow-lg rounded-[27px] flex justify-center items-center">
                 <div class="font-bold">Halo Semua!👋</div>
