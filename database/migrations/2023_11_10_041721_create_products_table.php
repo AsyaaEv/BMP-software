@@ -14,10 +14,11 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('highlight');
+            $table->string('excerpt');
+            $table->string('slug');
             $table->integer('price');
             $table->text('content');
-            $table->string('foto')->default('/img/no_product.png');
+            $table->string('foto')->default('/img/no_photo.png');
             $table->string('uploader');
             $table->foreign('uploader')->references('username')->on('users')->onDelete('cascade');
             $table->timestamps();

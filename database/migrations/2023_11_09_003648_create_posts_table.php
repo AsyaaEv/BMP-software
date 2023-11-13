@@ -14,7 +14,9 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('judul');
-            $table->string('highlight');
+            $table->string('excerpt');
+            $table->string('slug');
+            $table->string('image')->default('/img/no_photo.png');
             $table->text('isi');
             $table->string('uploader');
             $table->foreign('uploader')->references('username')->on('users')->onDelete('cascade');

@@ -22,7 +22,8 @@ class PostFactory extends Factory
         $category = Category::pluck('kode_category')->toArray();
         return [
             'judul' => fake()->sentence(),
-            'highlight' => fake()->sentence(),
+            'excerpt' => fake()->sentence(),
+            'slug' => fake()->slug(7),
             'isi' =>  fake()->paragraph(4),
             'uploader' => fake()->randomElement($user),
             'category' => fake()->randomElement($category),
