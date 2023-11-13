@@ -14,6 +14,8 @@ export default {
         'dasar' : '#4971F7',
         'text' : '#292929',
         'bg' : '#fdfdfd',
+        'secondary' : '#EFF2FE',
+        'third' : '#1AA7EC',
       }
     },
   },
