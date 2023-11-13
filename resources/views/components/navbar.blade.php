@@ -1,28 +1,28 @@
 <nav class="w-full h-[6rem] flex justify-between px-[2rem]">
     <div class=" flex justify-between w-full items-center">
 
-        <div class="">
+        <div class="w-36">
             <div class="font-bold text-text">Bogeng</div>
         </div>
         <div class="midele mt-3 text-sm lg:inline hidden">
             <ul class="p-0 flex gap-3">
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-text">Home</a>
+                    <a href="#" class="decoration-transparent text-secondTxt">Home</a>
                 </li>
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-text">About</a>
+                    <a href="#" class="decoration-transparent text-secondTxt">About</a>
                 </li>
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-text">Features</a>
+                    <a href="#" class="decoration-transparent text-secondTxt">Features</a>
                 </li>
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-text">Testimony</a>
+                    <a href="#" class="decoration-transparent text-secondTxt">Testimony</a>
                 </li>
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-text">Product</a>
+                    <a href="#" class="decoration-transparent text-secondTxt">Product</a>
                 </li>
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-text">Contact</a>
+                    <a href="#" class="decoration-transparent text-secondTxt">Contact</a>
                 </li>
             </ul>
         </div>

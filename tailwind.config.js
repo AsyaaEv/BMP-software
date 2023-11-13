@@ -17,6 +17,7 @@ export default {
         'secondary' : '#EFF2FE',
         'border' : '#99B0FF',
         'third' : '#1AA7EC',
+        'secondTxt' : '#75798E',
       }
     },
   },
