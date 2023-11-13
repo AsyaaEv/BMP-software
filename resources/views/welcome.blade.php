@@ -16,6 +16,6 @@
     <x-navbar />
     <x-hero />
     <x-about />
-    <x-pricing />
+    <x-feature />
 </div>
 <x-footer />
