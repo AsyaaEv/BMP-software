@@ -1,14 +1,40 @@
 <nav class="w-full h-[6rem] border-2 flex justify-between px-[2rem]">
-    <div class="w-auto h-full flex justify-center items-center">
-        <div class="font-bold text-text">Bogeng</div>
-    </div>
-    <div class="w-auto h-full flex justify-center items-center">
+    <div class=" flex justify-between w-full items-center">
+
+        <div class="">
+            <div class="font-bold text-text">Bogeng</div>
+        </div>
+        <div class="midele lg:inline hidden">
+            <ul class="p-0 flex gap-3">
+                <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
+                    <a href="#" class="decoration-transparent text-text">Home</a>
+                </li>
+                <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
+                    <a href="#" class="decoration-transparent text-text">About</a>
+                </li>
+                <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
+                    <a href="#" class="decoration-transparent text-text">Features</a>
+                </li>
+                <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
+                    <a href="#" class="decoration-transparent text-text">Testimony</a>
+                </li>
+                <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
+                    <a href="#" class="decoration-transparent text-text">Product</a>
+                </li>
+                <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
+                    <a href="#" class="decoration-transparent text-text">Contact</a>
+                </li>
+            </ul>
+        </div>
         <div class="w-auto h-full flex justify-center items-center">
             <div
                 class="w-[161px] h-[44px] bg-dasar rounded-[27px] flex justify-center items-center shadow-md hover:scale-[1.1] transition-all">
                 <div class="text-white font-semibold text-[0.9rem]">Dapatkan Sekarang</div>
             </div>
         </div>
+    </div>
+    <div class="w-auto h-full flex justify-center items-center">
+
         <div class="w-auto h-full flex justify-center items-center ml-[1rem] md:hidden ">
             <div class="w-[2rem] h-[2rem] rounded-[50%] bg-slate-200 flex justify-center items-center hover:scale-[1.1] transition-all hover:cursor-pointer"
                 id="menu">
@@ -24,22 +50,28 @@
             </li>
             <li
                 class="font-semibold text-white bg-blue-950/30 rounded-[10px] text-center mt-2 mb-2 shadow-md hover:scale-[1.1] transition-all hover:cursor-pointer">
-                <a href="#" class="decoration-transparent text-white">Home</a></li>
+                <a href="#" class="decoration-transparent text-white">Home</a>
+            </li>
             <li
                 class="font-semibold text-white bg-blue-950/30 rounded-[10px] text-center mt-2 mb-2 shadow-md hover:scale-[1.1] transition-all hover:cursor-pointer">
-                <a href="#" class="decoration-transparent text-white">About</a></li>
+                <a href="#" class="decoration-transparent text-white">About</a>
+            </li>
             <li
                 class="font-semibold text-white bg-blue-950/30 rounded-[10px] text-center mt-2 mb-2 shadow-md hover:scale-[1.1] transition-all hover:cursor-pointer">
-                <a href="#" class="decoration-transparent text-white">Features</a></li>
+                <a href="#" class="decoration-transparent text-white">Features</a>
+            </li>
             <li
                 class="font-semibold text-white bg-blue-950/30 rounded-[10px] text-center mt-2 mb-2 shadow-md hover:scale-[1.1] transition-all hover:cursor-pointer">
-                <a href="#" class="decoration-transparent text-white">Testimony</a></li>
+                <a href="#" class="decoration-transparent text-white">Testimony</a>
+            </li>
             <li
                 class="font-semibold text-white bg-blue-950/30 rounded-[10px] text-center mt-2 mb-2 shadow-md hover:scale-[1.1] transition-all hover:cursor-pointer">
-                <a href="#" class="decoration-transparent text-white">Product</a></li>
+                <a href="#" class="decoration-transparent text-white">Product</a>
+            </li>
             <li
                 class="font-semibold text-white bg-blue-950/30 rounded-[10px] text-center mt-2 shadow-md hover:scale-[1.1] transition-all hover:cursor-pointer">
-                <a href="#" class="decoration-transparent text-white">Contact</a></li>
+                <a href="#" class="decoration-transparent text-white">Contact</a>
+            </li>
         </ul>
     </div>
 </nav>
@@ -52,7 +84,7 @@
     // navbar.classList.add('invisible')
 
     menu.addEventListener('click', () => {
-        if(toggle == 0){
+        if (toggle == 0) {
             navbar.classList.remove('invisible')
             toggle = 1
         } else {
