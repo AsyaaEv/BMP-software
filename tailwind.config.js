@@ -15,6 +15,7 @@ export default {
         'text' : '#292929',
         'bg' : '#fdfdfd',
         'secondary' : '#EFF2FE',
+        'border' : '#99B0FF',
         'third' : '#1AA7EC',
       }
     },
