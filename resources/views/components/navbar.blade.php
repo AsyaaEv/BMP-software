@@ -1,8 +1,9 @@
 <nav class="w-full h-[6rem] flex justify-between px-[2rem]">
     <div class=" flex justify-between w-full items-center">
 
-        <div class="w-36">
-            <div class="font-bold text-text">Bogeng</div>
+        <div class="w-auto h-auto flex justify-center items-center">
+            <img src="{{asset('img/logoB.png')}}" alt="" class="w-[6rem] h-[6rem]">
+            <div class="font-bold text-xl text-black">BogengTeam</div>
         </div>
         <div class="midele mt-3 text-sm lg:inline hidden">
             <ul class="p-0 flex gap-3">

@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <title>{{ config('app.name') }}</title>
+    <link rel="shortcut icon" href="{{ asset('img/logoB.png')}}" type="image/x-icon">
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet"
