@@ -1,4 +1,4 @@
-<section>
+<section id="features">
     <div class="w-full container h-auto mb-8">
         <div class="w-full h-auto flex justify-center items-center mb-5 flex-col">
             <div class="w-[30rem] text-text font-bold text-4xl text-center">Varius features in BogengTeam</div>

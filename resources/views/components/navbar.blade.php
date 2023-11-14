@@ -1,36 +1,36 @@
 <nav class="w-full h-[6rem] flex justify-between px-[2rem]">
     <div class=" flex justify-between w-full items-center">
 
-        <div class="w-auto h-auto flex justify-center items-center">
-            <img src="{{asset('img/logoB.png')}}" alt="" class="w-[6rem] h-[6rem]">
-            <div class="font-bold text-xl text-black">BogengTeam</div>
-        </div>
+        <a href="#" class=" h-auto no-underline flex justify-center items-center">
+            <img src="{{ asset('img/logoB.png') }}" alt="" class="w-12">
+            <div class="font-bold text-md text-text">BogengTeam</div>
+        </a>
         <div class="midele mt-3 text-sm lg:inline hidden">
             <ul class="p-0 flex gap-3">
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-secondTxt">Home</a>
+                    <a href="#" class="decoration-transparent text-secondTxt hover:text-text">Home</a>
                 </li>
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-secondTxt">About</a>
+                    <a href="#about" class="decoration-transparent text-secondTxt hover:text-text">About</a>
                 </li>
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-secondTxt">Features</a>
+                    <a href="#features" class="decoration-transparent text-secondTxt hover:text-text">Features</a>
                 </li>
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-secondTxt">Testimony</a>
+                    <a href="#" class="decoration-transparent text-secondTxt hover:text-text">Testimony</a>
                 </li>
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-secondTxt">Product</a>
+                    <a href="#pricing" class="decoration-transparent text-secondTxt hover:text-text">Pricing</a>
                 </li>
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-secondTxt">Contact</a>
+                    <a href="#" class="decoration-transparent text-secondTxt hover:text-text">Contact</a>
                 </li>
             </ul>
         </div>
         <div class="w-auto h-full flex justify-center items-center">
             <div
-                class="w-[161px] h-[44px] bg-dasar rounded-[27px] flex justify-center items-center shadow-md hover:scale-[1.1] transition-all">
-                <div class="text-white font-semibold text-[0.9rem]">Dapatkan Sekarang</div>
+                class="w-[13rem] h-[3rem] transition bg-dasar rounded-[27px] hover:shadow-lg hover:shadow-secondary flex justify-center items-center">
+                <a href="#" class="text-white no-underline text-sm font-bold">Dapatkan Sekarang</a>
             </div>
         </div>
     </div>

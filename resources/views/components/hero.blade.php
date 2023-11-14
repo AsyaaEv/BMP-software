@@ -1,4 +1,4 @@
-<section>
+<section id="hero">
     <div class="w-full container mx-auto h-screen flex flex-col gap-4">
         <div class="w-full h-auto flex justify-center items-center mt-[5rem]">
             <div class="w-[15rem] h-[2.5rem] bg-bg  rounded-[27px] flex justify-center items-center px-4" id="content">

@@ -1,4 +1,4 @@
-<section>
+<section id="about">
     <div class="w-full mb-28 mt-5">
         <div class="w-full h-auto flex justify-center items-center">
             <div class="w-[80%] h-[468px] bg-[#EFF2FE] rounded-3xl flex border-t border-border">
