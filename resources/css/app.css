@@ -1,3 +1,138 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slide-top {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-20px);
+              transform: translateY(-20px);
+    }
+  }
+.slide-top2 {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-top2 {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  @keyframes slide-top2 {
+    0% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  
+  .slide-bottom {
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+ @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }
+  
+  @keyframes rotate {
+    /* At 0% (start), rotate 0 degrees */
+    0% {
+        transform: rotate(0deg);
+    }
+    /* At 100% (end), rotate 360 degrees */
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating-object {
+    translate: 60rem 20rem;
+    /* Set initial transform to make sure it starts at 0 degrees */
+    transform: rotate(deg);
+    /* Apply animation with a duration of 2 seconds and set it to repeat indefinitely */
+    animation: rotate 10s linear infinite;
+}
+.rotating-object2 {
+    /* Set initial transform to make sure it starts at 0 degrees */
+    transform: rotate(deg);
+    /* Apply animation with a duration of 2 seconds and set it to repeat indefinitely */
+    animation: rotate 20s linear infinite;
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 10px;
+}
+
+/* Handle when dragging */
+::-webkit-scrollbar-thumb:active {
+    background: #999;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #EFF2FE;
+    border-radius: 10px;
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+    background: #ddd;
+}

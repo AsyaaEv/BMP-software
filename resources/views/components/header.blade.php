@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <title>{{ config('app.name') }}</title>
-    <link rel="shortcut icon" href="{{ asset('img/logoB.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('img/logoB.png') }}" type="image/x-icon">
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet"
@@ -19,9 +19,10 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <style>
-        #content{
+        #content {
             width: max-content;
         }
+
         #typing {
             border-right: 1px solid black;
             overflow: hidden;
@@ -29,7 +30,7 @@
             animation: typing 3s steps(30) infinite alternate, blink 0.7s infinite;
         }
 
-        #logoB{
+        #logoB {
             animation: gerak 3s infinite;
             scale: 0.5;
         }
@@ -38,19 +39,23 @@
             0% {
                 transform: translateY(0px);
             }
+
             25% {
                 transform: translateY(10px);
             }
+
             50% {
                 transform: translateY(0px);
             }
+
             75% {
                 transform: translateY(-10px);
             }
+
             100% {
                 transform: translateY(0px);
             }
-            
+
         }
 
         @keyframes typing {
@@ -58,15 +63,18 @@
                 width: 0%;
                 visibility: hidden;
             }
+
             100% {
                 width: 100%;
             }
-         
+
         }
+
         @keyframes blink {
             50% {
-                border-color:transparent;
+                border-color: transparent;
             }
+
             100% {
                 border-color: black;
             }
