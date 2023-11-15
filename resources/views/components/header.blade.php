@@ -29,6 +29,30 @@
             animation: typing 3s steps(30) infinite alternate, blink 0.7s infinite;
         }
 
+        #logoB{
+            animation: gerak 3s infinite;
+            scale: 0.5;
+        }
+
+        @keyframes gerak {
+            0% {
+                transform: translateY(0px);
+            }
+            25% {
+                transform: translateY(10px);
+            }
+            50% {
+                transform: translateY(0px);
+            }
+            75% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+            
+        }
+
         @keyframes typing {
             0% {
                 width: 0%;

@@ -5,7 +5,7 @@
             <div class="text-text mt-4 font-semibold opacity-70">transformasi era digital implementasi tepat di saat yang
                 tepat</div>
         </div>
-        <div class="w-full h-auto mt-8 justify-between flex">
+        <div class="w-full h-auto mt-8 gap-[15px] flex justify-center items-center">
             <div
                 class="w-[350px] h-[228px] bg-[#EFF2FE] border-border border-t rounded-[27px] px-10 flex justify-center items-center flex-col">
                 <div class="w-full h-auto">
