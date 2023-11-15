@@ -1,5 +1,7 @@
 <section id="hero">
     <div class="w-full container mx-auto h-screen flex flex-col gap-4">
+        <img class="absolute -z-50 -translate-x-20 scale-75" src="/img/object.svg" alt="">
+        <img class="absolute -z-50 translate-x-[60rem] translate-y-72 scale-110" src="/img/object.svg" alt="">
         <div class="w-full h-auto flex justify-center items-center mt-[5rem]">
             <div class="w-[15rem] h-[2.5rem] bg-bg  rounded-[27px] flex justify-center items-center px-4" id="content">
                 <div class="font-bold bg-bg" id="typing">Halo Semua...!👋</div>
