@@ -1,5 +1,5 @@
 <section id="features">
-    <div class="w-full container h-auto mb-8">
+    <div class="w-full container pt-24 h-auto mb-8">
         <div class="w-full h-auto flex justify-center items-center mb-5 flex-col">
             <div class="w-[30rem] text-text font-bold text-4xl text-center">Varius features in BogengTeam</div>
             <div class="text-text mt-4 font-semibold opacity-70">transformasi era digital implementasi tepat di saat yang
