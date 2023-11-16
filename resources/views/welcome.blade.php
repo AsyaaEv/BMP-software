@@ -12,5 +12,7 @@
     <x-feature />
     <x-pricing />
     <x-product />
+    <x-testimony />
+    <x-member />
 </div>
 <x-footer />

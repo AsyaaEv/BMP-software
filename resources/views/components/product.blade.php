@@ -1,5 +1,5 @@
 <section>
-    <div class="w-full h-screen ">
+    <div class="w-full h-auto mb-[6rem] ">
         <div class="w-full h-auto mt-[5rem] flex flex-col gap-[10px]">
             <div class="text-center text-text font-bold text-3xl">Our Product</div>
             <div class="text-center text-text opacity-60 font-bold text-lg">Pilihlah sesuai kebutuhan Anda</div>
