@@ -14,5 +14,6 @@
     <x-product />
     <x-testimony />
     <x-member />
+    <x-foter />
 </div>
 <x-footer />
