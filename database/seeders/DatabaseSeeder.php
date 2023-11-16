@@ -24,8 +24,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             CategorySeeder::class,
             UserSeeder::class,
-            ProductSeeder::class,
-            TestimoniSeeder::class,
+            ProductSeeder::class
         ]);
 
         Post::factory(10)->create();

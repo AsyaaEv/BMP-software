@@ -15,7 +15,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        $post = Post::paginate();
+        $post = Post::paginate(10);
         return view('dashboard.posts', compact('post'));
     }
 
@@ -121,7 +121,7 @@ class PostController extends Controller
     public function destroy(string $id)
     {
         //
-        Post::destroy($id);
+        Post::find($id)->delete();
         return redirect()->route('posts.index')->with('message', 'Post berhasil dihapus');
     }
 }

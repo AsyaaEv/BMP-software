@@ -50,11 +50,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/dashboard/products/{id}/update', [ProductController::class, 'dashboardUpdatePage'])->name('dsahboard-update-product');
     Route::post('/dashboard/product/update/update', [ProductController::class, 'dashboardUpdateAction'])->name('dashboard-upate-project-update');
     Route::get('/dashboard/product/{id}/delete', [ProductController::class,  'dashboardDeleteAction'])->name('dashboard-delete-product-delete');
-    Route::get('/dashboard/products/testimony', [DashboardController::class, 'showTestimony'])->name('dashboard-testimonies');
-    Route::get('/dashboard/products/testimony/add', [DashboardController::class, 'addTestimonyPage'])->name('dashboard-create-testimony-page');
-    Route::post('/dashboard/products/testimony/add', [DashboardController::class, 'addTestimonyAction'])->name('dashboard-create-testimony');
-
-
 
     Route::resource('/dashboard/posts', PostController::class);
 });

@@ -30,8 +30,8 @@ class ProductController extends Controller
     */
     public function dashboardAll()
     {
-        $product = Product::paginate(10);
-        return view('dashboard.product',  compact('product'));
+        $product = Product::orderByDesc('id')->take(10)->get();
+        return view('dashboard.product', compact('product'));
     }
 
 
@@ -111,7 +111,7 @@ class ProductController extends Controller
 
     public function dashboardDeleteAction($id)
     {
-        Product::destroy($id);
+        Product::find($id)->delete();
 
         return redirect()->route('dashboard-product')->with('message', 'Produk Berhasil dihapus');
     }

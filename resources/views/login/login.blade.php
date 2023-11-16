@@ -1,4 +1,4 @@
-<x-header />
+<x-header :$page />
 
 <div class="w-full h-screen flex">
     <div class="w-[45%] h-screen bg-slate-100 shadow-xl flex flex-col">
@@ -19,16 +19,17 @@
                 and password.</div>
         </div>
         <div class="w-full h-[27.2rem] flex justify-center items-center">
-            <form action="" method="post">
+            <form action="{{ route('login') }}" method="post">
+                @csrf
                 <div class="w-[35rem] h-[23rem] flex flex-col">
-                    <label for="" class="font-semibold text-text opacity-60 text-lg mb-2">Email Addres</label>
+                    <label for="" class="font-semibold text-text opacity-60 text-lg mb-2">Username</label>
                     <i class="bi bi-envelope-open-fill absolute translate-y-[2.8rem] translate-x-[1rem] text-3xl text-dasar"
                         id="emailOpen"></i>
                     <i class="bi bi-envelope-fill absolute translate-y-[2.8rem] translate-x-[1rem] text-3xl text-dasar invisible"
                         id="emailTutup"></i>
-                    <input type="email"
+                    <input type="text"
                         class="w-full h-[3.5rem] rounded-[10px] pl-[3.5rem] border-1 border-slate-400 bg-slate-200 focus:outline-dasar"
-                        placeholder="Email Anda" id="inputEmail">
+                        placeholder="Email Anda" id="inputEmail" name="username">
                     <label for="" class="font-semibold text-text opacity-60 text-lg mb-2 mt-4">Password</label>
                     <i class="bi bi-unlock-fill absolute translate-y-[10rem] translate-x-[1rem] text-3xl text-dasar"
                         id="lockOpen"></i>
@@ -40,12 +41,12 @@
                         id="eyeOpen"></i>
                     <input type="password"
                         class="w-full h-[3.5rem] rounded-[10px] pl-[3.5rem] border-1 border-slate-400 bg-slate-200 focus:outline-dasar"
-                        placeholder="Password Anda" id="inputPassword" value="" autocomplete="none">
+                        placeholder="Password Anda" id="inputPassword" name="password">
 
                     <div class="w-full h-[10rem] flex justify-center items-center">
                         <div
                             class="w-[15rem] h-[4.5rem] rounded-[10px] shadow-lg bg-gradient-to-r from-dasar to-third flex justify-center items-center hover:scale-[1.05] hover:cursor-pointer transition-all">
-                            <div class="font-bold text-white text-xl">Login</div>
+                            <button type="submit" class="font-bold text-white text-xl">Login</button>
                         </div>
                     </div>
                 </div>
