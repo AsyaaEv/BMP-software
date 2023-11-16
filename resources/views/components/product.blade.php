@@ -13,14 +13,6 @@
                         <div class="text-text font-bold text-xl">{{ $product->title }}</div>
                         <div class="text-text font-bold text-md opacity-60">{{ $product->excerpt }}</div>
                     </div>
-                    <div class="flex gap-3 ">
-                        <div class="flex items-center">
-                            <i class="bi bi-tag"></i>
-                            <p class="font-light text-md text-gray-700">{{ $product->price }}</p>
-                        </div>
-
-
-                    </div>
                     <div class="w-full h-auto  flex justify-center items-center mt-4">
                         <a href="#" class="decoration-transparent">
                             <div
