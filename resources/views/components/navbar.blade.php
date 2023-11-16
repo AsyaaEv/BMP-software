@@ -1,8 +1,8 @@
-<nav class="w-full h-[6rem] flex justify-between px-[2rem]">
+<nav id="nav" class="w-full h-[5rem] flex justify-between px-[2rem] slide-bottom z-50 ">
     <div class=" flex justify-between w-full items-center">
 
         <a href="#" class=" h-auto no-underline flex justify-center items-center">
-            <img src="{{ asset('img/logoB.png') }}" alt="" class="w-12">
+            <img src="{{ asset('img/logoB.png') }}" alt="" class="w-8 m-2">
             <div class="font-bold text-md text-text">BogengTeam</div>
         </a>
         <div class="midele mt-3 text-sm lg:inline hidden">

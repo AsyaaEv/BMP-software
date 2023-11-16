@@ -18,6 +18,7 @@ export default {
         'border' : '#99B0FF',
         'third' : '#1AA7EC',
         'secondTxt' : '#75798E',
+        'card' : '#DBE3FF',
       }
     },
   },
