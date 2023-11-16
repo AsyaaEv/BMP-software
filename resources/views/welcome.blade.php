@@ -11,5 +11,6 @@
     <x-about />
     <x-feature />
     <x-pricing />
+    <x-product />
 </div>
 <x-footer />
