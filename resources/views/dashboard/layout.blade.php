@@ -12,7 +12,7 @@
 <div class="flex">
     <aside class="h-screen w-[20%] bg-gray-200 rounded-md px-4 py-4">
         <ul>
-            <a onclick="clickPage('posts')" class="no-underline text-white">
+            <a onclick="clickPage('postsies')" class="no-underline text-white">
                 <li
                     class="bg-gray-400 rounded-lg flex gap-4 hover:bg-dasar hover:text-white px-4 py-2 items-center mb-2">
                     <i class="bi bi-envelope-paper"></i>
@@ -52,6 +52,46 @@
         try {
             const respone = await fetch(`http://localhost:8000/dashboard/${page}`);
             const pageResult = await respone.text();
+            targetContent.innerHTML = pageResult;
+        } catch (error) {
+            console.log(error)
+        }
+
+
+    }
+    async function clickUpdate(id) {
+        const targetContent = document.getElementById('paging');
+        try {
+            const respone = await fetch(`{{ config('app.url') }}:8000/dashboard/products/${id}/update`);
+            const pageResult = await respone.text();
+            targetContent.innerHTML = pageResult;
+        } catch (error) {
+            console.log(error)
+        }
+
+
+    }
+    async function clickDelete(id) {
+        const targetContent = document.getElementById('paging');
+        try {
+            const respone = await fetch(`{{ config('app.url') }}:8000/dashboard/products/${id}/delete`);
+            const
+                reload = await fetch(`{{ config('app.url') }}:8000/dashboard/products`);
+            const pageResult = await reload.text();
+            targetContent.innerHTML = pageResult;
+        } catch (error) {
+            console.log(error)
+        }
+
+
+    }
+    async function clickDeleteTestimony(id) {
+        const targetContent = document.getElementById('paging');
+        try {
+            const respone = await fetch(`{{ config('app.url') }}:8000/dashboard/testimoni/${id}/delete`);
+            const
+                reload = await fetch(`{{ config('app.url') }}:8000/dashboard/testimoni`);
+            const pageResult = await reload.text();
             targetContent.innerHTML = pageResult;
         } catch (error) {
             console.log(error)

@@ -12,8 +12,12 @@
                         class="w-full h-full object-cover brightness-75 rounded-[10px] hover:rounded-[10px]">
                     <div
                         class="w-[25rem] h-[7rem] bg-gradient-to-t rounded-[10px] -translate-y-[7rem] from-dasar/50 absolute group-hover:from-dasar">
-                        <div class=" text-2xl text-white font-bold px-8 translate-y-[4rem] group-hover:-translate-y-[1rem]">Freya AQUUUUUUUU</div>
-                        <div class=" text-lg text-white opacity-60 font-semibold px-8 translate-y-[5rem] hidden group-hover:block group-hover:-translate-y-[1rem]">Gadis koleris yang suka berimajinasi, terangi harimu dengan senyuman karamelku</div>
+                        <div
+                            class=" text-2xl text-white font-bold px-8 translate-y-[4rem] group-hover:-translate-y-[1rem]">
+                            Muhammad Rifal Prasetyo (Gimler)</div>
+                        <div
+                            class=" text-lg text-white opacity-60 font-semibold px-8 translate-y-[5rem] hidden group-hover:block group-hover:-translate-y-[1rem]">
+                            Seorang Miliarder yang siap meraih mimpi</div>
                     </div>
                 </div>
             </a>
@@ -23,8 +27,12 @@
                     class="w-full h-full object-cover brightness-75 rounded-[10px] hover:rounded-[10px]">
                 <div
                     class="w-[25rem] h-[7rem] bg-gradient-to-t rounded-[10px] -translate-y-[7rem] from-dasar/50 absolute group-hover:from-dasar">
-                    <div class=" text-2xl text-white font-bold px-8 translate-y-[4rem] group-hover:-translate-y-[1rem]">Freya AQUUUUUUUU</div>
-                    <div class=" text-lg text-white opacity-60 font-semibold px-8 translate-y-[5rem] hidden group-hover:block group-hover:-translate-y-[1rem]">Gadis koleris yang suka berimajinasi, terangi harimu dengan senyuman karamelku</div>
+                    <div class=" text-2xl text-white font-bold px-8 translate-y-[4rem] group-hover:-translate-y-[1rem]">
+                        Diandra RullyAditya(Hexcon)</div>
+                    <div
+                        class=" text-lg text-white opacity-60 font-semibold px-8 translate-y-[5rem] hidden group-hover:block group-hover:-translate-y-[1rem]">
+                        Meraih masa depan yang diinginkan
+                    </div>
                 </div>
             </div>
             <div
@@ -33,8 +41,11 @@
                     class="w-full h-full object-cover brightness-75 rounded-[10px] hover:rounded-[10px]">
                 <div
                     class="w-[25rem] h-[7rem] bg-gradient-to-t rounded-[10px] -translate-y-[7rem] from-dasar/50 absolute group-hover:from-dasar">
-                    <div class=" text-2xl text-white font-bold px-8 translate-y-[4rem] group-hover:-translate-y-[1rem]">Freya AQUUUUUUUU</div>
-                    <div class=" text-lg text-white opacity-60 font-semibold px-8 translate-y-[5rem] hidden group-hover:block group-hover:-translate-y-[1rem]">Gadis koleris yang suka berimajinasi, terangi harimu dengan senyuman karamelku</div>
+                    <div class=" text-2xl text-white font-bold px-8 translate-y-[4rem] group-hover:-translate-y-[1rem]">
+                        Anggun Rasya Evaldo()</div>
+                    <div
+                        class=" text-lg text-white opacity-60 font-semibold px-8 translate-y-[5rem] hidden group-hover:block group-hover:-translate-y-[1rem]">
+                        Fotografer berjiwa seni</div>
                 </div>
             </div>
 

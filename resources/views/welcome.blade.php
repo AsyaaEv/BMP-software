@@ -11,8 +11,8 @@
     <x-about />
     <x-feature />
     <x-pricing />
-    <x-product />
-    <x-testimony />
+    <x-product :$products />
+    <x-testimony :$testimonies />
     <x-member />
     <x-foter />
 </div>

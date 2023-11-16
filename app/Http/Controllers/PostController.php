@@ -15,8 +15,8 @@ class PostController extends Controller
      */
     public function index()
     {
-        $post = Post::paginate(10);
-        return view('dashboard.posts', compact('post'));
+        // $posts = Post::offset(15)->take(15)->get;
+        // return view('dashboard.posts', compact('posts'));
     }
 
     /**
