@@ -30,8 +30,8 @@ class ProductController extends Controller
     */
     public function dashboardAll()
     {
-        $product = Product::paginate(10);
-        return view('dashboard.product',  compact('product'));
+        $products = Product::orderByDesc('id')->take(10)->get();
+        return view('dashboard.product', compact('products'));
     }
 
 
@@ -52,13 +52,16 @@ class ProductController extends Controller
             'title' => 'required',
             'price' => 'required',
             'content' => 'required',
-            'foto' => 'required|image',
         ]);
 
         if ($request->foto) {
             $validate['foto'] = $request->file('foto')->store('product-images');
         }
         $validate['uploader'] = auth()->user()->username;
+        $validate['excerpt'] = Str::excerpt($request->content, '', [
+            'radius' => 50,
+            'omission' => '(...) '
+        ]);
 
 
 
@@ -71,7 +74,8 @@ class ProductController extends Controller
         Product::create($validate);
 
         // return to dashboard product
-        return redirect()->route('dashboard-product')->with('message', 'Produk berhasil di Upload');
+        // return redirect()->route('dashboard-product')->with('message', 'Produk berhasil di Upload');
+        return redirect()->route('dashboard-page');
     }
 
     public function dashboardUpdatePage($id)
@@ -88,7 +92,7 @@ class ProductController extends Controller
     }
 
 
-    public function dashboardUpdateAction(Request $request, $id) // tangkap id saat masuk ke update
+    public function dashboardUpdateAction(Request $request) // tangkap id saat masuk ke update
     {
         $validate = $request->validate([
             'title' => 'required',
@@ -99,20 +103,18 @@ class ProductController extends Controller
             Storage::delete($request->oldPhoto); // butuh value photo sebelumnya
             $validate['foto'] = $request->file('foto')->store('product-images');
         }
-        $validate['excerpt'] = Str::excerpt($request->content, '', ['radius => 100']);
+        $validate['excerpt'] = Str::excerpt($request->content, '', ['radius => 50',  'omission' => '(...) ']);
 
 
         // update to database
-        Product::find($id)->update($validate);
+        Product::find($request->id)->update($validate);
 
 
-        return redirect()->route('dashboard-product')->with('message', 'Produk Berhasil diupdate');
+        return redirect()->route('dashboard-page');
     }
 
     public function dashboardDeleteAction($id)
     {
         Product::find($id)->delete();
-
-        return redirect()->route('dashboard-product')->with('message', 'Produk Berhasil dihapus');
     }
 }
