@@ -111,7 +111,7 @@ class ProductController extends Controller
 
     public function dashboardDeleteAction($id)
     {
-        Product::find($id)->delete();
+        Product::destroy($id);
 
         return redirect()->route('dashboard-product')->with('message', 'Produk Berhasil dihapus');
     }
