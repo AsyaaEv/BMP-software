@@ -17,13 +17,19 @@
                     <a href="#features" class="decoration-transparent text-secondTxt hover:text-text">Features</a>
                 </li>
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-secondTxt hover:text-text">Testimony</a>
-                </li>
-                <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
                     <a href="#pricing" class="decoration-transparent text-secondTxt hover:text-text">Pricing</a>
                 </li>
                 <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
-                    <a href="#" class="decoration-transparent text-secondTxt hover:text-text">Contact</a>
+                    <a href="#product" class="decoration-transparent text-secondTxt hover:text-text">Product</a>
+                </li>
+                <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
+                    <a href="#testimony" class="decoration-transparent text-secondTxt hover:text-text">Testimony</a>
+                </li>
+                <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
+                    <a href="#member" class="decoration-transparent text-secondTxt hover:text-text">Member</a>
+                </li>
+                <li class="font-semibold hover:scale-[1.1] transition-all hover:cursor-pointer">
+                    <a href="#footer" class="decoration-transparent text-secondTxt hover:text-text">Contact</a>
                 </li>
             </ul>
         </div>

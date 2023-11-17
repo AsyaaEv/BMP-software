@@ -1,15 +1,14 @@
-<section>
-    <div class="w-full h-auto ">
+<section id="testimony">
+    <div class="container h-auto mb-10 ">
         <div class="w-full h-auto flex flex-col gap-[10px]">
             <div class="text-center text-text font-bold text-3xl">Testimoni</div>
             <div class="text-center text-text opacity-60 font-bold text-lg">Penilaian customer yang telah percaya dengan
                 layanan kami</div>
         </div>
-        <div
-            class="container w-full h-[25rem] gap-3  mt-[3rem] flex mb-4 overflow-auto border-2 justify-center items-center">
+        <div class="container h-80 items-center w-full  mt-[3rem] flex gap-10 overflow-x-scroll scrollbar-hide">
             @foreach ($testimonies as $testimony)
                 <div
-                    class="w-[478px] h-[281px] rounded-[24px] shadow-sm bg-card flex flex-wrap justify-center items-center flex-col  transition-all hover:scale-[1.05] hover:cursor-pointer">
+                    class="w-1/3 p-3 border rounded-3xl shadow-sm bg-card hover:bg-bg transition-all hover:scale-[1.05] hover:cursor-pointer">
                     <div class="w-full h-auto flex items-center gap-[10px] px-8 mb-4">
                         <img src="storage/{{ $testimony->image_consumer }}" alt=""
                             class="w-[57px] h-[57px] rounded-[50%] object-cover">
@@ -21,16 +20,10 @@
                         @endfor
                     </div>
                     <div class="w-full h-auto px-8">
-                        <div class="font-semibold text-text opacity-60 text-lg">{{ $testimony->he_say }}</div>
+                        <div class="font-semibold text-text text-md ">{{ $testimony->he_say }}</div>
                     </div>
                 </div>
             @endforeach
-
-
-
-
-
-
         </div>
     </div>
 </section>

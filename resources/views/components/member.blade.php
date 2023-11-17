@@ -1,55 +1,58 @@
-<section>
-    <div class="w-full h-auto ">
+<section id="member">
+    <div class="w-full h-screen font-madefor pt-28 mb-24">
         <div class="w-full h-auto flex flex-col gap-[10px]">
-            <div class="text-center text-text font-bold text-3xl">Member</div>
-            <div class="text-center text-text opacity-60 font-bold text-lg">Member dari Bogeng Media Prima</div>
+            <div class="text-center text-text font-bold text-3xl">Our Member</div>
+            <div class="text-center text-text opacity-60 font-bold text-lg">Member dari BogengTeam</div>
         </div>
-        <div class="container w-full h-auto gap-5  mt-[3rem] flex mb-4 justify-center items-center">
-            <a href="https://rifalkom.my.id">
-                <div
-                    class="w-[25rem] h-[40rem] bg-slate-200 rounded-[10px] hover:scale-[1.05] overflow-hidden hover:cursor-pointer hover:rounded-[10px] transition-all group">
-                    <img src="{{ asset('img/pp.jpg') }}" alt=""
-                        class="w-full h-full object-cover brightness-75 rounded-[10px] hover:rounded-[10px]">
-                    <div
-                        class="w-[25rem] h-[7rem] bg-gradient-to-t rounded-[10px] -translate-y-[7rem] from-dasar/50 absolute group-hover:from-dasar">
-                        <div
-                            class=" text-2xl text-white font-bold px-8 translate-y-[4rem] group-hover:-translate-y-[1rem]">
-                            Muhammad Rifal Prasetyo (Gimler)</div>
-                        <div
-                            class=" text-lg text-white opacity-60 font-semibold px-8 translate-y-[5rem] hidden group-hover:block group-hover:-translate-y-[1rem]">
-                            Seorang Miliarder yang siap meraih mimpi</div>
-                    </div>
-                </div>
-            </a>
+        <div class="container w-full h-auto  mt-[3rem] gap-3 flex mb-4 justify-center items-center">
             <div
-                class="w-[25rem] h-[40rem] bg-slate-200 rounded-[10px] hover:scale-[1.05] overflow-hidden hover:cursor-pointer hover:rounded-[10px] transition-all group">
-                <img src="{{ asset('img/pp.jpg') }}" alt=""
-                    class="w-full h-full object-cover brightness-75 rounded-[10px] hover:rounded-[10px]">
-                <div
-                    class="w-[25rem] h-[7rem] bg-gradient-to-t rounded-[10px] -translate-y-[7rem] from-dasar/50 absolute group-hover:from-dasar">
-                    <div class=" text-2xl text-white font-bold px-8 translate-y-[4rem] group-hover:-translate-y-[1rem]">
-                        Diandra RullyAditya(Hexcon)</div>
-                    <div
-                        class=" text-lg text-white opacity-60 font-semibold px-8 translate-y-[5rem] hidden group-hover:block group-hover:-translate-y-[1rem]">
-                        Meraih masa depan yang diinginkan
-                    </div>
-                </div>
-            </div>
-            <div
-                class="w-[25rem] h-[40rem] bg-slate-200 rounded-[10px] hover:scale-[1.05] overflow-hidden hover:cursor-pointer hover:rounded-[10px] transition-all group">
-                <img src="{{ asset('img/pp.jpg') }}" alt=""
-                    class="w-full h-full object-cover brightness-75 rounded-[10px] hover:rounded-[10px]">
-                <div
-                    class="w-[25rem] h-[7rem] bg-gradient-to-t rounded-[10px] -translate-y-[7rem] from-dasar/50 absolute group-hover:from-dasar">
-                    <div class=" text-2xl text-white font-bold px-8 translate-y-[4rem] group-hover:-translate-y-[1rem]">
-                        Anggun Rasya Evaldo()</div>
-                    <div
-                        class=" text-lg text-white opacity-60 font-semibold px-8 translate-y-[5rem] hidden group-hover:block group-hover:-translate-y-[1rem]">
-                        Fotografer berjiwa seni</div>
-                </div>
-            </div>
+                class="w-1/3 h-1/2 bg-slate-200 rounded-[10px] hover:scale-[1.05] hover:cursor-pointer hover:rounded-b-none hover:rounded-[10px] transition-all group">
+                <img src="{{ asset('img/pp.jpg') }}" alt="" id="profile-1"
+                    class="w-full h-full object-cover brightness-75 hover:rounded-b-none  hover:brightness-100 transition-all rounded-[10px] hover:rounded-[10px]">
 
 
+                <div id="detail"
+                    class="max-w-sm absolute hidden -z-10 -translate-y-64 duration-300 transition-transform p-6 border border-gray-200 rounded-b-lg bg-card">
+                    <div>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-text ">Anggun Rasya Evaldo</h5>
+                    </div>
+                    <p class="mb-3 font-normal text-secondTxt">orang yang paling sok sibuk di team ini, dan si paling
+                        fullstack</p>
+                </div>
+
+            </div>
+            <div
+                class="w-1/3 h-1/2 bg-slate-200 rounded-[10px] hover:scale-[1.05] hover:cursor-pointer hover:rounded-b-none hover:rounded-[10px] transition-all group">
+                <img src="{{ asset('img/pp.jpg') }}" alt="" id="profile-2"
+                    class="w-full h-full object-cover brightness-75 hover:rounded-b-none  hover:brightness-100 transition-all rounded-[10px] hover:rounded-[10px]">
+
+
+                <div id="detail1"
+                    class="max-w-sm -z-10 absolute hidden duration-300 transition-transform p-6 border border-gray-200 rounded-b-lg bg-card">
+                    <div>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-text ">Ir. KH. Muhammad Rifal Prasetyo,
+                            S.i S.Kom</h5>
+                    </div>
+                    <p class="mb-3 font-normal text-secondTxt">Here are the biggest enterprise
+                        technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                </div>
+
+            </div>
+            <div
+                class="w-1/3 h-1/2 bg-slate-200 rounded-[10px] hover:scale-[1.05] hover:cursor-pointer hover:rounded-b-none hover:rounded-[10px] transition-all">
+                <img src="{{ asset('img/pp.jpg') }}" alt="" id="profile-3"
+                    class="w-full h-full object-cover brightness-75 hover:rounded-b-none  hover:brightness-100 transition-all rounded-[10px] hover:rounded-[10px]">
+
+                <div id="detail2"
+                    class="max-w-sm  -z-10 absolute hidden duration-300 transition-transform p-6 border border-gray-200 rounded-b-lg bg-card ">
+                    <div>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-text ">Diandra Rulyaditya</h5>
+                    </div>
+                    <p class="mb-3 font-normal text-secondTxt">Here are the biggest enterprise
+                        technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                </div>
+
+            </div>
 
 
 
