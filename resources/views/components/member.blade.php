@@ -16,11 +16,11 @@
                     <div>
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-text ">Anggun Rasya Evaldo</h5>
                     </div>
-                    <p class="mb-3 font-normal text-secondTxt">orang yang paling sok sibuk di team ini, dan si paling
-                        fullstack</p>
+                    <p class="mb-3 font-normal text-secondTxt">Fullstack Developer !Bogeng</p>
                 </div>
 
             </div>
+
             <div
                 class="w-1/3 h-1/2 bg-slate-200 rounded-[10px] hover:scale-[1.05] hover:cursor-pointer hover:rounded-b-none hover:rounded-[10px] transition-all group">
                 <img src="{{ asset('img/rifal.jpg') }}" alt="" id="profile-2"
@@ -30,14 +30,15 @@
                 <div id="detail1"
                     class="max-w-sm -z-10 absolute hidden duration-300 transition-transform p-6 border border-gray-200 rounded-b-lg bg-card">
                     <div>
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-text ">Ir. KH. Muhammad Rifal Prasetyo,
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-text ">Ir. KH. Muhammad Rifal
+                            Prasetyo,
                             S.i S.Kom</h5>
                     </div>
-                    <p class="mb-3 font-normal text-secondTxt">Here are the biggest enterprise
-                        technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <p class="mb-3 font-normal text-secondTxt">Fullstack Developer !Bogeng</p>
                 </div>
 
             </div>
+
             <div
                 class="w-1/3 h-1/2 bg-slate-200 rounded-[10px] hover:scale-[1.05] hover:cursor-pointer hover:rounded-b-none hover:rounded-[10px] transition-all">
                 <img src="{{ asset('img/rully.jpg') }}" alt="" id="profile-3"
@@ -48,11 +49,11 @@
                     <div>
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-text ">Diandra Rulyaditya</h5>
                     </div>
-                    <p class="mb-3 font-normal text-secondTxt">Here are the biggest enterprise
-                        technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <p class="mb-3 font-normal text-secondTxt">Fullstack Developer !Bogeng</p>
                 </div>
 
             </div>
+
 
 
 

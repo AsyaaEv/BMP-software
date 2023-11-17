@@ -7,8 +7,8 @@
         <div class="w-full h-auto flex my-4 justify-between">
             <div class="w-[350px] py-4 bg-[#EFF2FE] px-10 rounded-2xl">
                 <div class="w-full h-auto mt-4 text-center font-bold text-text mb-2 text-2xl">Paket Basic</div>
-                <div class="w-full h-auto  text-center font-semibold text-secondTxt px-2">Cocok untuk
-                    personal branding atau blog Anda</div>
+                <div class="w-full h-auto  text-center font-semibold text-secondTxt px-2">Cocok untuk membuat portofolio
+                    pribadi</div>
                 <div class="w-ful h-auto text-center font-bold text-text text-4xl my-4"><span class="text-base">Rp</span>
                     24.000<span class="text-base">/bln</span></div>
                 <div class="w-ful h-auto font-bold text-text text-md mt-2 mb-3">Fitur Unggulan</div>
@@ -124,8 +124,8 @@
             </div>
             <div class="w-[350px] py-4 bg-[#EFF2FE] px-10 rounded-2xl">
                 <div class="w-full h-auto mt-4 text-center font-bold text-text mb-2 text-2xl">Paket Basic</div>
-                <div class="w-full h-auto  text-center font-semibold text-secondTxt px-2">Cocok untuk
-                    personal branding atau blog Anda</div>
+                <div class="w-full h-auto  text-center font-semibold text-secondTxt px-2">Cocok untuk UMKM dan bisnis
+                    lainnya</div>
                 <div class="w-ful h-auto text-center font-bold text-text text-4xl my-4"><span
                         class="text-base">Rp</span>
                     150.000<span class="text-base">/bln</span></div>
