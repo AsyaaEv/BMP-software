@@ -6,14 +6,14 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class header extends Component
+class belive extends Component
 {
     /**
      * Create a new component instance.
      */
-    public function __construct(
-        public $page
-    ) {
+    public function __construct()
+    {
+        //
     }
 
     /**
@@ -21,6 +21,6 @@ class header extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.header');
+        return view('components.belive');
     }
 }

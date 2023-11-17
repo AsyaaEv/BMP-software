@@ -1,4 +1,4 @@
-<x-header :$page />
+<x-header :page="$page" />
 <img src="{{ asset('img/gradient.svg') }}" class="w-full absolute -z-40" alt="">
 <div class="font-madefor m-0">
     <div class="toTop slide-top fixed animate-bounce right-0 bottom-0 m-3 hidden">
@@ -11,8 +11,8 @@
     <x-about />
     <x-feature />
     <x-pricing />
-    <x-product :$products />
-    <x-testimony :$testimonies />
+    <x-product :products="$products" />
+    <x-testimony :testimonies="$testimonies" />
     <x-member />
     <x-foter />
 </div>

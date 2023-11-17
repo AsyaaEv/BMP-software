@@ -4,11 +4,11 @@
             <div class="text-center text-text font-bold text-3xl">Our Product</div>
             <div class="text-center text-text opacity-60 font-bold text-lg">Produk-produk yang di buat oleh Bogeng</div>
         </div>
-        <div class="container w-full h-auto  mt-[3rem] flex gap-4 overflow-x-scroll scrollbar-hide">
+        <div class="container justify-center w-full h-auto  mt-[3rem] flex gap-4 overflow-x-scroll scrollbar-hide">
             @foreach ($products as $product)
-                <div class="flex justify-center items-center flex-col rounded-[24px] p-4 shadow-sm bg-card md:w-1/4">
+                <div class="flex justify-center items-center flex-col rounded-[24px] p-4 shadow-sm bg-card md:w-1/3">
                     <img src="storage/{{ $product->foto }}" alt=""
-                        class="object-fit overflow-hidden w-[20rem] h-[12rem]">
+                        class="object-cover rounded-xl overflow-hidden w-[20rem] h-[12rem]">
                     <div class="w-full h-auto mt-4">
                         <div class="text-text font-bold text-xl">{{ $product->title }}</div>
                         <div class="text-text font-bold text-md opacity-60">{{ $product->excerpt }}</div>

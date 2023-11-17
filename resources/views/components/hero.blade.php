@@ -24,8 +24,21 @@
         </div>
         <div class="w-full h-auto mt-4 flex justify-center items-center gap-3 flex-col">
             <div class="text-sm text-text font-bold text-center">Instansi yang sudah percaya kami</div>
-            <div class="w-full h-auto"></div>
-            <div class="text-[2rem]"><img src="img/instansi.png" alt=""></div>
+            <ul class="mt-3 flex items-center gap-3">
+                <li><a href="https://smkn1bangsri.sch.id/"><img src="{{ asset('img/instansi/smk.png') }}" alt=""
+                            class="w-10 grayscale hover:scale-110 hover:grayscale-0 transition-all"></a>
+                </li>
+                <li><a href="https://esoftgreat.com/"><img src="{{ asset('img/instansi/esoftgreat.png') }}"
+                            alt="" class="w-28 grayscale hover:scale-110 hover:grayscale-0 transition-all"></a>
+                </li>
+                <li><a href="https://tefa.smkn1bangsri.sch.id/"><img src="{{ asset('img/instansi/tefa.png') }}"
+                            alt="" class="w-16 grayscale hover:scale-110 hover:grayscale-0 transition-all"></a>
+                </li>
+                <li><a href="https://jurnalistik.smkn1bangsri.sch.id/"><img
+                            src="{{ asset('img/instansi/jurnalis.png') }}" alt=""
+                            class="w-14 grayscale hover:scale-110 hover:grayscale-0 transition-all"></a>
+                </li>
+            </ul>
         </div>
     </div>
 </section>

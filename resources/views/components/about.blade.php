@@ -6,7 +6,7 @@
                     <img src="{{ asset('img/foto.svg') }}" alt="">
                 </div>
                 <div class="w-[50%] h-auto  flex flex-col justify-center items-center pr-20 gap-[10px]">
-                    <div class=" font-bold mb-2 text-5xl mr-[5rem]">About BogengTeam</div>
+                    <div class=" font-bold mb-2 text-5xl slide-top2 mr-[5rem]">About BogengTeam</div>
                     <div class=" text-secondTxt opacity-80">Perusahaan BogengTeam adalah ahli dalam
                         menyediakan
                         jasa pembuatan website yang inovatif dan berkualitas tinggi. Dengan tim profesional yang

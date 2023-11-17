@@ -7,8 +7,8 @@
         <div class="container w-full h-auto  mt-[3rem] gap-3 flex mb-4 justify-center items-center">
             <div
                 class="w-1/3 h-1/2 bg-slate-200 rounded-[10px] hover:scale-[1.05] hover:cursor-pointer hover:rounded-b-none hover:rounded-[10px] transition-all group">
-                <img src="{{ asset('img/pp.jpg') }}" alt="" id="profile-1"
-                    class="w-full h-full object-cover brightness-75 hover:rounded-b-none  hover:brightness-100 transition-all rounded-[10px] hover:rounded-[10px]">
+                <img src="{{ asset('img/asya.jpeg') }}" alt="" id="profile-1"
+                    class="w-full h-72 object-cover brightness-75 hover:rounded-b-none  hover:brightness-100 transition-all rounded-[10px] hover:rounded-[10px]">
 
 
                 <div id="detail"
@@ -23,8 +23,8 @@
             </div>
             <div
                 class="w-1/3 h-1/2 bg-slate-200 rounded-[10px] hover:scale-[1.05] hover:cursor-pointer hover:rounded-b-none hover:rounded-[10px] transition-all group">
-                <img src="{{ asset('img/pp.jpg') }}" alt="" id="profile-2"
-                    class="w-full h-full object-cover brightness-75 hover:rounded-b-none  hover:brightness-100 transition-all rounded-[10px] hover:rounded-[10px]">
+                <img src="{{ asset('img/rifal.jpg') }}" alt="" id="profile-2"
+                    class="w-full h-72 object-cover brightness-75 hover:rounded-b-none  hover:brightness-100 transition-all rounded-[10px] hover:rounded-[10px]">
 
 
                 <div id="detail1"
@@ -40,8 +40,8 @@
             </div>
             <div
                 class="w-1/3 h-1/2 bg-slate-200 rounded-[10px] hover:scale-[1.05] hover:cursor-pointer hover:rounded-b-none hover:rounded-[10px] transition-all">
-                <img src="{{ asset('img/pp.jpg') }}" alt="" id="profile-3"
-                    class="w-full h-full object-cover brightness-75 hover:rounded-b-none  hover:brightness-100 transition-all rounded-[10px] hover:rounded-[10px]">
+                <img src="{{ asset('img/rully.jpg') }}" alt="" id="profile-3"
+                    class="w-full h-72 object-cover brightness-75 hover:rounded-b-none  hover:brightness-100 transition-all rounded-[10px] hover:rounded-[10px]">
 
                 <div id="detail2"
                     class="max-w-sm  -z-10 absolute hidden duration-300 transition-transform p-6 border border-gray-200 rounded-b-lg bg-card ">

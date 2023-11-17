@@ -5,10 +5,10 @@
             <div class="text-center text-text opacity-60 font-bold text-lg">Penilaian customer yang telah percaya dengan
                 layanan kami</div>
         </div>
-        <div class="container h-80 items-center w-full  mt-[3rem] flex gap-10 overflow-x-scroll scrollbar-hide">
+        <div class="container h-96 items-center w-full  mt-[3rem] flex gap-10 overflow-x-scroll scrollbar-hide">
             @foreach ($testimonies as $testimony)
                 <div
-                    class="w-1/3 p-3 border rounded-3xl shadow-sm bg-card hover:bg-bg transition-all hover:scale-[1.05] hover:cursor-pointer">
+                    class="w-1/3 h-80 py-5 border rounded-3xl shadow-sm bg-card hover:bg-bg transition-all hover:scale-[1.05] hover:cursor-pointer">
                     <div class="w-full h-auto flex items-center gap-[10px] px-8 mb-4">
                         <img src="storage/{{ $testimony->image_consumer }}" alt=""
                             class="w-[57px] h-[57px] rounded-[50%] object-cover">
