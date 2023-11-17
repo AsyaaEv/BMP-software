@@ -18,7 +18,8 @@
         <div class="w-full h-auto flex justify-center items-center ">
             <div
                 class="w-[13rem] h-[3rem] transition bg-dasar rounded-[27px] hover:shadow-lg hover:shadow-secondary flex justify-center items-center">
-                <a href="#" class="text-white no-underline text-sm font-bold">Dapatkan Sekarang</a>
+                <a href="https://api.whatsapp.com/send?phone=6283109895990&text=Halo%20BogengTeam%2C%20Saya%20ingin%20menggunakan%20layanan%20anda"
+                    class="text-white no-underline text-sm font-bold">Dapatkan Sekarang</a>
             </div>
         </div>
         <div class="w-full h-auto mt-4 flex justify-center items-center gap-3 flex-col">
