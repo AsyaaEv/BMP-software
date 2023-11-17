@@ -4,7 +4,13 @@
     <div>
         <div class="flex gap-4 justify-center">
             <div class="bg-gray-400 text-black rounded-full px-2 py-2 flex ">
-                <i class="bi bi-box-arrow-right"></i>
+                <h4 class="text-lg font-thin ">{{ auth()->user()->name }}</h4>
+            </div>
+            <div class="bg-gray-400 text-black rounded-full px-2 py-2 flex ">
+                <a href="{{ route('logout') }}">
+                    <i class="bi bi-box-arrow-right"></i>
+                </a>
+
             </div>
         </div>
     </div>

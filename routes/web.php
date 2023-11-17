@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('home');
 });
 
 
@@ -59,4 +59,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/dashboard/testimoni/create', [DashboardController::class, 'createTestimonyPage']);
     Route::post('/dashboard/testimoni/create', [DashboardController::class, 'createTestimonyAction'])->name('dashboard-testimony-action');
     Route::get('/dashboard/testimoni/{id}/delete', [DashboardController::class, 'deleteTestimonyAction'])->name('dashboard-testimony-delete');
+
+    Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 });

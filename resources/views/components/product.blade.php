@@ -2,7 +2,7 @@
     <div class="w-full h-auto mb-[6rem] ">
         <div class="w-full h-auto mt-[5rem] flex flex-col gap-[10px]">
             <div class="text-center text-text font-bold text-3xl">Our Product</div>
-            <div class="text-center text-text opacity-60 font-bold text-lg">Pilihlah sesuai kebutuhan Anda</div>
+            <div class="text-center text-text opacity-60 font-bold text-lg">Produk-produk yang di buat oleh Bogeng</div>
         </div>
         <div class="container w-full h-auto  mt-[3rem] flex gap-3 overflow-x-scroll">
             @foreach ($products as $product)
@@ -13,6 +13,14 @@
                     <div class="w-full h-auto  px-4 mt-4">
                         <div class="text-text font-bold text-xl">{{ $product->title }}</div>
                         <div class="text-text font-bold text-md opacity-60">{{ $product->excerpt }}</div>
+                    </div>
+                    <div class="flex gap-3 ">
+                        <div class="flex items-center">
+                            <i class="bi bi-tag"></i>
+                            <p class="font-light text-md text-gray-700">{{ $product->price }}</p>
+                        </div>
+
+
                     </div>
                     <div class="w-full h-auto  flex justify-center items-center mt-4">
                         <a href="#" class="decoration-transparent">

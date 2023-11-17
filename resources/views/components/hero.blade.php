@@ -13,9 +13,9 @@
             <div class="font-bold text-text text-6xl">untuk bisnis anda</div>
         </div>
         <div class="w-full h-auto flex justify-center mt-2">
-            <div class="text-secondTxt w-1/2 text-center text-md">Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Architecto, ipsam sapiente esse, adipisci, recusandae totam dolores at obcaecati ad
-                dolor excepturi voluptatum officia quas nesciunt!</div>
+            <div class="text-secondTxt w-1/2 text-center text-md">perusahaan pemrograman web, menawarkan layanan yang
+                dapat membantu Anda membangun situs web yang menarik dan fungsional. peroleh keuntungan dari pengalaman
+                dan keahlian para ahli dalam bidang pemrograman web,</div>
         </div>
         <div class="w-full h-auto flex justify-center items-center ">
             <div

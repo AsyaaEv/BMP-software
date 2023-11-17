@@ -10,7 +10,7 @@
     @foreach ($testimonies as $testimony)
         <div class=" flex  rounded-sm mb-2 gap-4">
             <div class="">
-                <img src="storage/{{ $testimony->image }}" alt="profile"
+                <img src="storage/{{ $testimony->image_consumer }}" alt="profile"
                     class="aspect-square object-cover rounded-md overflow-hidden w-28 h-28">
             </div>
             <div class="px-4 py-2">
