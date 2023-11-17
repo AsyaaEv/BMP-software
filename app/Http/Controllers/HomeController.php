@@ -18,7 +18,7 @@ class HomeController extends Controller
         ];
         $products = Product::take(6)->get();
         $posts = Post::offset(6)->take(6)->get();
-        $testimonies = Testimoni::take(3)->get();
+        $testimonies = Testimoni::orderByDesc('id')->take(3)->get();
         return view('welcome', compact('page', 'products', 'posts', 'testimonies'));
     }
 }
